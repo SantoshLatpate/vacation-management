@@ -17,7 +17,7 @@ const Body = () => {
   // Whenever state variables update, react triggers a reconciliation cycle(re-renders the component)
 
   useEffect(() => {
-    fetchData();
+    //fetchData();
   }, []);
 
   const fetchData = async () => {
